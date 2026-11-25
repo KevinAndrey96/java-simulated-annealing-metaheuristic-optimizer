@@ -1,0 +1,7 @@
+services:
+  optimizer:
+    build: .
+    container_name: simulated-annealing-optimizer
+    command: ["--benchmark", "linear", "--seed", "42", "--export-csv", "/app/output/trajectory.csv"]
+    volumes:
+      - ./output:/app/output
