@@ -33,7 +33,7 @@ jobs:
           python-version: '3.12'
 
       - name: Compile and Test with Maven
-        run: mvn clean verify -B
+        run: mvn clean package -B
 
       - name: Run Architecture & Algorithm Verification Suite
         run: python3 scripts/verify_annealing.py

@@ -108,7 +108,7 @@ def test_metropolis_acceptance_criterion():
 
 def test_compilation_and_linear_convergence():
     # Compile core and run CLI on linear benchmark
-    out_dir = os.path.join(ROOT_DIR, "target", "test-classes")
+    out_dir = os.path.join(ROOT_DIR, "target", "verify-classes")
     os.makedirs(out_dir, exist_ok=True)
 
     src_files = [
@@ -154,7 +154,7 @@ def test_compilation_and_linear_convergence():
     return log_test("Suite 4: Java Compilation & Linear Optimization Convergence", True, f"Linear problem converged to {best_energy:.4f} (Target: 31.0).")
 
 def test_continuous_benchmarks_convergence():
-    out_dir = os.path.join(ROOT_DIR, "target", "test-classes")
+    out_dir = os.path.join(ROOT_DIR, "target", "verify-classes")
 
     # Run Sphere benchmark: target 0.0
     run_cmd = ["java", "-cp", out_dir, "com.kevinandrey.optimizer.annealing.cli.AnnealingCli", "--benchmark", "sphere", "--seed", "42"]
@@ -248,8 +248,8 @@ def main():
     print(f"  Summary: {passed}/{total} verification suites passed.")
     print("=" * 80)
 
-    # Cleanup temporary test classes
-    test_out = os.path.join(ROOT_DIR, "target")
+    # Cleanup temporary verification classes
+    test_out = os.path.join(ROOT_DIR, "target", "verify-classes")
     if os.path.exists(test_out):
         import shutil
         shutil.rmtree(test_out, ignore_errors=True)
