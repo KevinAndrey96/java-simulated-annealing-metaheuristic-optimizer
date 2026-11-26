@@ -2,7 +2,7 @@
 ### High-Performance Continuous & Constrained Optimization Engine
 **Autonomous Metaheuristic Engine in Java 8 - 21 with JFreeChart Convergence Analytics**
 
-[![CI](https://github.com/KevinAndrey96/simulated-annealing-metaheuristic-optimizer-java/actions/workflows/ci.yml/badge.svg)](https://github.com/KevinAndrey96/simulated-annealing-metaheuristic-optimizer-java/actions/workflows/ci.yml)
+[![CI](https://github.com/KevinAndrey96/java-simulated-annealing-metaheuristic-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/KevinAndrey96/java-simulated-annealing-metaheuristic-optimizer/actions/workflows/ci.yml)
 [![Java](https://img.shields.io/badge/Java-8%20%7C%2011%20%7C%2017%20%7C%2021-ED8B00?logo=openjdk)](https://openjdk.org/)
 [![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?logo=apachemaven)](https://maven.apache.org/)
 [![JFreeChart](https://img.shields.io/badge/JFreeChart-1.5.4-blue)](https://www.jfree.org/jfreechart/)

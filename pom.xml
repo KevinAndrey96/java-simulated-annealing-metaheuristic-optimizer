@@ -10,7 +10,7 @@
 
     <name>Simulated Annealing Metaheuristic Optimizer</name>
     <description>Enterprise Metaheuristic Optimization Engine in Java implementing Simulated Annealing with multi-cooling schedules, nonlinear benchmark suites and convergence analytics.</description>
-    <url>https://github.com/KevinAndrey96/simulated-annealing-metaheuristic-optimizer-java</url>
+    <url>https://github.com/KevinAndrey96/java-simulated-annealing-metaheuristic-optimizer</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
